@@ -1,0 +1,26 @@
+
+public class MainDriver {
+
+	public static void main(String[] args) {
+		{
+		Runner runner = new Runner();
+		runner.Run(); //instantiated the object so we can run the method
+		}
+	}
+
+}
+
+
+
+
+public class Runner 
+{
+	void Run () 
+	{
+		System.out.println("Hello Wolrd");
+		System.out.println("My name is Megan");
+		System.out.println("Done...");
+
+	}
+
+}
